@@ -57,6 +57,16 @@ function formatUnixTimestamp(unixTimestamp) {
 }
 
 const userIDInput = document.getElementById("userIDinput");
+
 userIDInput.addEventListener("input", function(event) {
+
     displayRecords(event.target.value);
 });
+
+userIDInput.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+    }
+});
+
+
