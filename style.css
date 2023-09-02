@@ -1,19 +1,21 @@
+
+
 body {
     font-family: monospace;
-    background-color: #3E3F5E;
+    background-color: #30332E;
 }
 
 .card {
     padding: 0.5rem;
     width: auto;
     margin-top: 1em;
-    background-color: #A100E1;
+    background-color: #62BBC1;
     border-radius: 0.3rem;
 
 }
 
 .card .status {
-    color: #FFC073;
+    color: #FFFBFC;
     font-size: 1.3rem;
     font-weight: bold;
 }
