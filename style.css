@@ -1,0 +1,49 @@
+body {
+    font-family: monospace;
+    background-color: #3E3F5E;
+}
+
+.card {
+    padding: 0.5rem;
+    width: auto;
+    margin-top: 1em;
+    background-color: #A100E1;
+    border-radius: 0.3rem;
+
+}
+
+.card .status {
+    color: #FFC073;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card .date {
+    color: #E6E6E6;
+    font-weight: bold;
+}
+
+#userIDinput {
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    color: #000000;
+    background-color: #ECECEC;
+
+}
+
+#title {
+    color: #B0B6FF;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
